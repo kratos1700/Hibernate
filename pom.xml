@@ -10,16 +10,23 @@
 
 
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
         <dependency>
             <groupId>org.hibernate</groupId>
-            <artifactId>hibernate-agroal</artifactId>
+            <artifactId>hibernate-core</artifactId>
             <version>5.4.23.Final</version>
-            <type>pom</type>
         </dependency>
 
 
 
     </dependencies>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+
 
 </project>
 

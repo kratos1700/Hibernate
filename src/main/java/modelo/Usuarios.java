@@ -19,8 +19,8 @@ public class Usuarios {
     private String mail;
 
 // Constructors
-    public Usuarios(int id, String usuari, String pasword, String mail) {
-        Id = id;
+    public Usuarios( String usuari, String pasword, String mail) {
+
         this.usuari = usuari;
         this.pasword = pasword;
         this.mail = mail;
@@ -36,9 +36,9 @@ public class Usuarios {
         return Id;
     }
 
-    public void setId(int id) {
+   /* public void setId(int id) {
         Id = id;
-    }
+    }*/
 
     public String getUsuari() {
         return usuari;
