@@ -9,6 +9,7 @@ import javax.persistence.*;
 public class Usuarios {
     // atributs
     @Id
+    //@GeneratedValue
     @Column(name = "id")
     private  int Id;
     @Column(name = "usuari")
