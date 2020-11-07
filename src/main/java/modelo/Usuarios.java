@@ -1,5 +1,6 @@
 package modelo;
-
+/*
+* Mapeando la clase con anotaciones, asi nos ahorramos de hacer el xml de mapeado*/
 
 import javax.persistence.*;
 

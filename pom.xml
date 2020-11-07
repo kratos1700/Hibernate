@@ -20,7 +20,7 @@
 
 
     </dependencies>
-
+<!-- estas linias sirven para que el ide pueda compilar el proyecto Maven ya que sin ella da error-->
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
