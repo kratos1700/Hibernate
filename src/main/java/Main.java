@@ -19,14 +19,14 @@ public class Main {
             //iniciamos la transaccio
             miSession.beginTransaction();
             //guardamos el objeto a la bbdd
-            miSession.save(usuari);
+            miSession.save(usuari2);
             //hacemos el commit
             miSession.getTransaction().commit();
             System.out.println("Registre guardat");
 
 
             // codifo para mostrar los registros de la bbdd
-            Query query = miSession.createQuery("FROM Usuarios ");
+            Query query = miSession.createQuery("FROM Usuarios "); // se pasa la clase
             List list = query.list();
             for (int i=0; i<list.size();i++){
                 System.out.println(list.get(i).toString());
@@ -43,3 +43,4 @@ public class Main {
     }
 
 }
+// codi per si falla mysql amb l'hora:    SET GLOBAL time_zone = '+03:00';

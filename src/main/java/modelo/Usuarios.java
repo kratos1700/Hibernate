@@ -77,3 +77,7 @@ public class Usuarios {
     }
 }
 
+/*
+si falla conexio del server per la hora executar al server :
+SET GLOBAL time_zone = '+03:00';
+ */
